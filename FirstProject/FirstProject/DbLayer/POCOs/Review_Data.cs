@@ -6,8 +6,8 @@ using LinqToDB.Mapping;
 
 namespace FirstProject.DbLayer.POCOs
 {
-    [Table(Name = "Review")]
-    public class Review_Data
+    [Table(Name = "Reviews")]
+    public class Review
     {
         [PrimaryKey, Identity]
         public int ID { get; set; }
