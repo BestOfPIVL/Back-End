@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace FirstProject
 {
-    public class ConectionClass : LinqToDB.Data.DataConnection
+    public class FilesharingConnection : LinqToDB.Data.DataConnection
     {
-        public ConectionClass() : base("Data_Base_One") { }
+        public FilesharingConnection() : base("Data_Base_One") { }
         public ITable<FileData> FileData => GetTable<FileData>();
-        public ITable<Admin> Admin_Data => GetTable<Admin>();
-        public ITable<Review> Review_Data => GetTable<Review>();
+        public ITable<Admin> Admins => GetTable<Admin>();
+        public ITable<Review> Reviews => GetTable<Review>();
     }
 }

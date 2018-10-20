@@ -14,7 +14,7 @@ namespace FirstProject.DbLayer.POCOs
         [Column(Name = "Author"), NotNull]
         public string Author { get; set; }
         [Column(Name = "Review")]
-        public string Review { get; set; }
+        public string ReviewText { get; set; }
         [Column(Name = "Rating"), NotNull]
         public int Rating { get; set; }
     }

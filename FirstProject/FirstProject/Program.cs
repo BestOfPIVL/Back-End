@@ -10,6 +10,7 @@ namespace FirstProject
 {
     public class Program
     {
+        public static FilesharingConnection DataConnection { get; set; } = new FilesharingConnection();
         public static void Main(string[] args)
         {
             var host = new WebHostBuilder()
