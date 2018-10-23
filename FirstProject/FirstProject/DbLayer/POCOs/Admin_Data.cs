@@ -6,7 +6,11 @@ using LinqToDB.Mapping;
 
 namespace FirstProject.DbLayer.POCOs
 {
+<<<<<<< HEAD
     [Table]
+=======
+    [Table(Name ="Admins")]
+>>>>>>> 0def423f6e8ae54053a12ef21b8e0f30c7eb897a
     public class Admin
     {
         [PrimaryKey, Identity]
