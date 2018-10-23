@@ -35,6 +35,11 @@ namespace FirstProject.Controllers
             return JObject.Parse(@"{'status':'ok'}");
         }
 
+        public JObject Get(string user_name, string password)//хочу сюда записать метод для сброса пароля
+        {
+
+        }
+
         public JObject Get()
         {
             return JObject.Parse(@"{ 'status' : 'ok' }");              
