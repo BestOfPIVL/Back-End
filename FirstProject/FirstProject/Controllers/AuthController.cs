@@ -16,6 +16,8 @@ namespace FirstProject.Controllers
     {
         public JObject Post(string user_name, string password, string status, string faculty, string specialty, string mail, DateTime year_of_entry)
         {
+            var check = Program.DataConnection.Admins.FirstOrDefault(x => x.Username == user_name) == null;
+            if (!check) return JObject.Parse(@"{'status':'registered'}");
 
             var person = new Admin()
             {
@@ -28,6 +30,7 @@ namespace FirstProject.Controllers
                 Mail = mail
             };
 
+            Program.DataConnection.Insert(person);
 
             return JObject.Parse(@"{'status':'ok'}");
         }
