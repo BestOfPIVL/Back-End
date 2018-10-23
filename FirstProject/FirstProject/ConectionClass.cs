@@ -11,7 +11,7 @@ namespace FirstProject
     {
         public ConectionClass() : base("Data_Base_One") { }
         public ITable<FileData> FileData => GetTable<FileData>();
-        public ITable<Admin_Data> Admin_Data => GetTable<Admin_Data>();
+        public ITable<Admin> Admin_Data => GetTable<Admin>();
         public ITable<Review_Data> Review_Data => GetTable<Review_Data>();
     }
 }

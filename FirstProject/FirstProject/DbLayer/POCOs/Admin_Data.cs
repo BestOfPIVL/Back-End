@@ -7,7 +7,7 @@ using LinqToDB.Mapping;
 namespace FirstProject.DbLayer.POCOs
 {
     [Table]
-    public class Admin_Data
+    public class Admin
     {
         [PrimaryKey, Identity]
         public Guid ID { get; set; }
