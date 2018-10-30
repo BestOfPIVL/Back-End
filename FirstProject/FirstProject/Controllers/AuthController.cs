@@ -35,31 +35,16 @@ namespace FirstProject.Controllers
             return JObject.Parse(@"{'status':'ok'}");
         }
 
-        public JObject Get(string user_name, string password)//хочу сюда записать метод для сброса пароля
+        public JObject Post(string user_name, string password)//хочу сюда записать метод для сброса пароля
         {
 
         }
 
-        public JObject Get()
-        {
-            return JObject.Parse(@"{ 'status' : 'ok' }");              
-        }
 
-        public JObject Post(string username, string password)
+        public JObject PostResetter(string username, string token)
         {
-            var user = new Admin
-            {
-              Username = username, 
-              Password = password,
-              Admission_Year = new DateTime(2000, 1, 1, 1, 1, 1),
-              Faculty = "wewe",
-              Mail = "wewe",
-              Specialty = "wewe",
-              Status = "wewe"
-            };
+            return JObject.Parse(@"{ 'status' : 'ok' }");    
             
-            Program.DataConnection.Insert(user);
-            return JObject.Parse(@"{ 'status' : 'ok' }");
         }
     }
 }

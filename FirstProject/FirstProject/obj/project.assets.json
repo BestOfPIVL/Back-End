@@ -10988,11 +10988,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\Student\\Source\\Repos\\Back-End\\FirstProject\\FirstProject\\FirstProject.csproj",
+      "projectUniqueName": "C:\\Users\\Student\\Source\\Repos\\Back-End2\\FirstProject\\FirstProject\\FirstProject.csproj",
       "projectName": "FirstProject",
-      "projectPath": "C:\\Users\\Student\\Source\\Repos\\Back-End\\FirstProject\\FirstProject\\FirstProject.csproj",
+      "projectPath": "C:\\Users\\Student\\Source\\Repos\\Back-End2\\FirstProject\\FirstProject\\FirstProject.csproj",
       "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Student\\Source\\Repos\\Back-End\\FirstProject\\FirstProject\\obj\\",
+      "outputPath": "C:\\Users\\Student\\Source\\Repos\\Back-End2\\FirstProject\\FirstProject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
