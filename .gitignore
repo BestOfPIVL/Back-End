@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/FirstProject/FirstProject/bin/Debug/netcoreapp1.1
+/FirstProject/FirstProject/obj/Debug/netcoreapp1.1
+/FirstProject/FirstProject/obj/Release/netcoreapp1.1
+/FirstProject/.vs
+/FirstProject/FirstProject/obj
