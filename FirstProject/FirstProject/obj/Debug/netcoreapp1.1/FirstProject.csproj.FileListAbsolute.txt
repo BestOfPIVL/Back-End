@@ -6,3 +6,13 @@ C:\Users\CNA\source\repos\Back-End\FirstProject\FirstProject\obj\Debug\netcoreap
 C:\Users\CNA\source\repos\Back-End\FirstProject\FirstProject\obj\Debug\netcoreapp1.1\FirstProject.csproj.CoreCompileInputs.cache
 C:\Users\CNA\source\repos\Back-End\FirstProject\FirstProject\obj\Debug\netcoreapp1.1\FirstProject.AssemblyInfoInputs.cache
 C:\Users\CNA\source\repos\Back-End\FirstProject\FirstProject\obj\Debug\netcoreapp1.1\FirstProject.AssemblyInfo.cs
+C:\Users\Student\Source\Repos\Back-End\FirstProject\FirstProject\bin\Debug\netcoreapp1.1\FirstProject.deps.json
+C:\Users\Student\Source\Repos\Back-End\FirstProject\FirstProject\bin\Debug\netcoreapp1.1\FirstProject.runtimeconfig.json
+C:\Users\Student\Source\Repos\Back-End\FirstProject\FirstProject\bin\Debug\netcoreapp1.1\FirstProject.runtimeconfig.dev.json
+C:\Users\Student\Source\Repos\Back-End\FirstProject\FirstProject\obj\Debug\netcoreapp1.1\FirstProject.csprojResolveAssemblyReference.cache
+C:\Users\Student\Source\Repos\Back-End\FirstProject\FirstProject\obj\Debug\netcoreapp1.1\FirstProject.csproj.CoreCompileInputs.cache
+C:\Users\Student\Source\Repos\Back-End\FirstProject\FirstProject\obj\Debug\netcoreapp1.1\FirstProject.AssemblyInfo.cs
+C:\Users\Student\Source\Repos\Back-End\FirstProject\FirstProject\obj\Debug\netcoreapp1.1\FirstProject.dll
+C:\Users\Student\Source\Repos\Back-End\FirstProject\FirstProject\obj\Debug\netcoreapp1.1\FirstProject.pdb
+C:\Users\Student\Source\Repos\Back-End\FirstProject\FirstProject\bin\Debug\netcoreapp1.1\FirstProject.dll
+C:\Users\Student\Source\Repos\Back-End\FirstProject\FirstProject\bin\Debug\netcoreapp1.1\FirstProject.pdb

@@ -2,12 +2,11 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using FirstProject.DbLayer.POCOs;
-using LinqToDB;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
+using FirstProject.DbLayer.POCOs;
+using LinqToDB;
 
 namespace FirstProject.Controllers
 {
@@ -15,28 +14,37 @@ namespace FirstProject.Controllers
     [Route("api/Auth")]
     public partial class AuthController : Controller
     {
-        public JObject Get()
+        public JObject Post(string user_name, string password, string status, string faculty, string specialty, string mail, DateTime year_of_entry)
         {
-            return JObject.Parse(@"{ 'status' : 'ok' }");              
-        }
+            var check = Program.DataConnection.Admins.FirstOrDefault(x => x.Username == user_name) == null;
+            if (!check) return JObject.Parse(@"{'status':'registered'}");
 
-        public JObject Post(string username, string password)
-        {
-            var user = new Admin
+            var person = new Admin()
             {
-              Username = username, 
-              Password = password,
-              Admission_Year = new DateTime(2000, 1, 1, 1, 1, 1),
-              Faculty = "wewe",
-              Mail = "wewe",
-              Specialty = "wewe",
-              Status = "wewe"
+                Username = user_name,
+                Password = password,
+                Status = status,
+                Faculty = faculty,
+                Specialty = specialty,
+                Admission_Year = year_of_entry,
+                Mail = mail
             };
-            
-            Program.DataConnection.Insert(user);
-            return JObject.Parse(@"{ 'status' : 'ok' }");
-        }
-    
 
+            Program.DataConnection.Insert(person);
+
+            return JObject.Parse(@"{'status':'ok'}");
+        }
+
+        public JObject Post(string user_name, string password)//хочу сюда записать метод для сброса пароля
+        {
+
+        }
+
+
+        public JObject PostResetter(string username, string token)
+        {
+            return JObject.Parse(@"{ 'status' : 'ok' }");    
+            
+        }
     }
 }

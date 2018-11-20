@@ -1,6 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\FirstProject",
+    "\\FirstProject\\FirstProject",
+    "\\FirstProject\\FirstProject\\Controllers",
+    "\\FirstProject\\FirstProject\\DbLayer"
   ],
+  "SelectedNode": "\\FirstProject\\FirstProject\\FirstProject.csproj",
   "PreviewInSolutionExplorer": false
 }

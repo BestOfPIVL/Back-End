@@ -10,9 +10,5 @@ namespace FirstProject
 {
     public class Admin_Getting_Data
     {
-        //public static List<Admin_Data> All()
-        //{
-        //    using (var DBO = new Data_Base_One())
-        //}
     }
 }
